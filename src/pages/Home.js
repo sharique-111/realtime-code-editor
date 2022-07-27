@@ -71,7 +71,7 @@ const Home = () => {
             <footer>
                 <h3>
                     Get the Github code at &nbsp; {' '}
-                    <a href='https://github.com/sharique-111/realtime-code-editor' target="_blank" rel="noopener noreferrer">RealTime Editor</a>
+                    <a href='https://github.com/sharique-111/realtime-code-editor' target="_blank" rel="noopener noreferrer">codescuss</a>
                 </h3>
             </footer>
         </div>
