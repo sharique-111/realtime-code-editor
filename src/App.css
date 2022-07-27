@@ -1,0 +1,151 @@
+.homePageWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  height: 100vh;
+}
+
+.formWrapper {
+  background: rgb(125, 46, 174);
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 90%;
+}
+
+footer{
+  position: fixed;
+  bottom: 0;
+}
+
+footer a{
+  color: yellowgreen;
+}
+
+.inputGroup{
+  display: flex;
+  flex-direction: column;
+}
+
+.inputGroup a {
+  font: bold;
+  font-size: large;
+  color: yellowgreen;
+}
+
+.mainLabel{
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.inputBox {
+  padding: 12px;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  margin-bottom: 20px;
+  background: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.btn{
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.joinBtn{
+  background: green;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.joinBtn:hover {
+  background: darkgreen;
+}
+
+.createInfo {
+  margin : 0 auto;
+  margin-top: 20px;
+}
+
+.createNewBtn {
+  color: yellowgreen;
+  text-decoration: none;
+  border-bottom: 1px solid greenyellow;
+  transition: all 0.2s ease-in-out;
+}
+
+.createNewBtn:hover,footer a:hover {
+  color: green;
+  border-color: blue;
+}
+
+.mainWrap{
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  /* height: 100vh; */
+}
+
+.aside{
+  background: rgb(27, 25, 25);
+  padding: 16px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.asideInner {
+  flex: 1;
+}
+
+.clientsList{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.client {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.username{
+  margin-top: 10px;
+}
+
+.leaveBtn{
+  margin-top: 20px;
+  width: 100%;
+  background: maroon;
+}
+
+.leaveBtn:hover{
+  background: red;
+}
+
+.copyBtn {
+  background: green;
+  width: 100%;
+}
+
+.copyBtn:hover{
+  background: darkgreen;
+}
+
+.CodeMirror {
+  min-height: calc(100vh-20px);
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
+}
