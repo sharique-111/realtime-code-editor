@@ -1,3 +1,11 @@
+Live at  <br/>
+https://codescuss.herokuapp.com/
+<br/> <br/>
+Commands for use:  <br/>
+npm install react-scripts  <br/>
+npm run start:front  <br/>
+npm server:dev  <br/>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
